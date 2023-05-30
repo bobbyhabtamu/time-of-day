@@ -75,21 +75,21 @@
 	let myColor = "";
 	let myPick = "";
 
-	//myHour = 15;
+	// myHour = 24;
 
 	console.log(myHour);
 
-    if(myHour >= 5 || myHour <= 12){
+    if(myHour > 5 && myHour < 12){
         //alert("good morning!");
         myGreeting = "Good Morning!";
         myColor = "orange";
         myPic = "morning.jpg";
-    }else if(myHour > 12 || myHour <= 18){
+    }else if(myHour > 12 && myHour < 18){
         //alert("good afternoon!");
         myGreeting = "Good Afternoon!";
         myColor = "green";
         myPic = "afternoon.jpg";
-    }else if(myHour > 18 || myHour <= 23){
+    }else if(myHour > 18 && myHour < 23){
         myGreeting = "Good Evening!";
         myColor = "red";
         myPic = "evening.jpg";
